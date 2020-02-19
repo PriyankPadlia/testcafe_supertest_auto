@@ -41,8 +41,15 @@ npm install
 /* Then start both Node and React */
 npm start
 
+/* To run the testcafe tests --added by Priyank*/
+npm run test
+
+/* To run the SuperTest api tests --added by Priyank*/
+npm run test
+
 /* To run the tests */
 npm run test
+
 
 /* Running e2e tests */
 npm run wdio
