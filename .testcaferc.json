@@ -1,0 +1,11 @@
+{
+    "browsers": "chrome",
+    "selectorTimeout": 1000,
+    "speed": 0.1,
+    "src": "e2e/cafe/TC_Test1.js",
+    "reporter": {
+        "name": "html",
+        "output": "e2e/reports/tc_report.xml"
+    }
+
+}
