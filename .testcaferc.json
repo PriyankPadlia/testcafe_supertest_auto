@@ -5,7 +5,7 @@
     "src": "e2e/cafe/TC_Test1.js",
     "reporter": {
         "name": "html",
-        "output": "e2e/reports/tc_report.xml"
+        "output": "e2e/reports/tc_report.html"
     }
 
 }
