@@ -3,9 +3,9 @@
   GET /products
     GET /all products
 16
-      ✓ count number of products returned (510ms)
+      ✓ count number of products returned (536ms)
 undefined
-      ✓ validate the products returned (484ms)
+      ✓ validate the products returned (471ms)
 
 
   2 passing (1s)
