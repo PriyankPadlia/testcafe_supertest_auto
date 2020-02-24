@@ -27,7 +27,7 @@
     "wdio": "wdio",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "test:SuperTest": "mocha ./src/__tests__/ST_Test.test.js",
+    "test:SuperTest": "mocha ./src/__tests__/ST_Test.test.js --REPORTER=list > APITestResult",
     "test:TestCafe": "testcafe",
     "test:coverage": "npm run test -- --coverage",
     "format": "prettier --write \"**/*.+(js|json|css)\"",
