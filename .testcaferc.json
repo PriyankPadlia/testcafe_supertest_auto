@@ -3,6 +3,7 @@
     "selectorTimeout": 1000,
     "speed": 0.1,
     "src": "e2e/cafe/TC_Test1.js",
+    "proxy-bypass": "localhost:8080",
     "reporter": {
         "name": "html",
         "output": "e2e/reports/tc_report.html"

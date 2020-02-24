@@ -13,6 +13,7 @@
  - This app has been tested working in node version v10.1.0.
     - Download and install node version 10.1.X
     - Check node version with node -v to confirm the installed version.
+    - Also, be sure to have `git` available in your PATH, `npm` might need it
 
 
 ## To build the application, some node modules are required. 
@@ -25,6 +26,13 @@ npm install
 npm start
 
 ## Running tests
+
+#### Unit and Integration tests
+
+###### To run unit and integration tests, run the below command. All components have at least a basic smoke test. Integration test includes fetch product and add to cart properly.
+npm run test
+
+
 
 #### E2E TESTS
 
