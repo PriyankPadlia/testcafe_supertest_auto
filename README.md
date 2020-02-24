@@ -1,4 +1,18 @@
 ## Title: This Online-Shopping-Cart application when built has the following features.  
+
+## 🛍️ Simple ecommerce cart application [![CircleCI](https://circleci.com/gh/jeffersonRibeiro/react-shopping-cart.svg?style=svg)](https://circleci.com/gh/jeffersonRibeiro/react-shopping-cart)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors)
+
+<p align="center">
+
+  <img src="./doc/react-shopping-cart-min.gif">
+</p>
+
+## Basic Overview - [Live Demo](https://react-shopping-cart-67954.firebaseapp.com/)
+
+This simple shopping cart prototype shows how React components and Redux can be used to build a
+friendly user experience with instant visual updates and scaleable code in ecommerce applications.
+
   #### Features
 
 - Add and remove products from the floating cart
