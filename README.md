@@ -41,11 +41,28 @@ npm install
 /* Then start both Node and React */
 npm start
 
-/* To run the testcafe tests --added by Priyank*/
-npm run test
+/* To run e2e tests with testcafe*/
+'npm run test:TestCafe'
+/*
+Following functionalities have been tested as part of e2e testing
+- Add and remove products from the floating cart
+- Sort products by highest to lowest and lowest to highest price
+- Filter products by available sizes
+- Products persist in floating cart after page reloads
 
-/* To run the SuperTest api tests --added by Priyank*/
-npm run test
+Test report(using HTML reporter) can be found : ./e2e/cafe/reports/tc_report.html 
+To open the report, browse to the folder and open the report in any HTML browser like chrome/Safari
+*/
+
+/* To run the api tests using SuperTest/Mocha*/
+'npm run test:SuperTest'
+/*
+Following functionalities have been tested as part of api testing
+As this api only returns all the products in the db/xml. There is no operation defined on the api. The scope of testing was limited.
+-  Validate the api responds with 200 status code.
+-  Count the api returns all the products available
+-  Validate all the products returned with all the fields/tags required in the UI
+*/
 
 /* To run the tests */
 npm run test
