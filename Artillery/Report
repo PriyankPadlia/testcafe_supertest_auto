@@ -1,0 +1,123 @@
+Started phase 0, duration: 60s @ 21:35:32(+0000) 2020-02-24
+Report @ 21:35:42(+0000) 2020-02-24
+Elapsed time: 10 seconds
+  Scenarios launched:  199
+  Scenarios completed: 199
+  Requests completed:  199
+  RPS sent: 20.1
+  Request latency:
+    min: 1.4
+    max: 6.7
+    median: 1.8
+    p95: 3.2
+    p99: 4.5
+  Codes:
+    200: 199
+
+Report @ 21:35:52(+0000) 2020-02-24
+Elapsed time: 20 seconds
+  Scenarios launched:  200
+  Scenarios completed: 200
+  Requests completed:  200
+  RPS sent: 20.04
+  Request latency:
+    min: 1.5
+    max: 5.3
+    median: 1.9
+    p95: 4
+    p99: 5
+  Codes:
+    200: 200
+
+Report @ 21:36:02(+0000) 2020-02-24
+Elapsed time: 30 seconds
+  Scenarios launched:  200
+  Scenarios completed: 200
+  Requests completed:  200
+  RPS sent: 20.02
+  Request latency:
+    min: 1.5
+    max: 6
+    median: 2
+    p95: 4
+    p99: 5.4
+  Codes:
+    200: 200
+
+Report @ 21:36:12(+0000) 2020-02-24
+Elapsed time: 40 seconds
+  Scenarios launched:  200
+  Scenarios completed: 200
+  Requests completed:  200
+  RPS sent: 20.02
+  Request latency:
+    min: 1.5
+    max: 5
+    median: 1.8
+    p95: 3.8
+    p99: 4.8
+  Codes:
+    200: 200
+
+Report @ 21:36:22(+0000) 2020-02-24
+Elapsed time: 50 seconds
+  Scenarios launched:  200
+  Scenarios completed: 200
+  Requests completed:  200
+  RPS sent: 20.02
+  Request latency:
+    min: 1.4
+    max: 4.5
+    median: 1.9
+    p95: 3.4
+    p99: 4.2
+  Codes:
+    200: 200
+
+Report @ 21:36:32(+0000) 2020-02-24
+Elapsed time: 1 minute, 0 seconds
+  Scenarios launched:  200
+  Scenarios completed: 200
+  Requests completed:  200
+  RPS sent: 20.02
+  Request latency:
+    min: 1.5
+    max: 4
+    median: 1.8
+    p95: 3.4
+    p99: 3.9
+  Codes:
+    200: 200
+
+Report @ 21:36:32(+0000) 2020-02-24
+Elapsed time: 1 minute, 0 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  RPS sent: 2
+  Request latency:
+    min: 2.5
+    max: 2.5
+    median: 2.5
+    p95: 2.5
+    p99: 2.5
+  Codes:
+    200: 1
+
+All virtual users finished
+Summary report @ 21:36:32(+0000) 2020-02-24
+  Scenarios launched:  1200
+  Scenarios completed: 1200
+  Requests completed:  1200
+  RPS sent: 19.86
+  Request latency:
+    min: 1.4
+    max: 6.7
+    median: 1.9
+    p95: 3.8
+    p99: 4.7
+  Scenario counts:
+    0: 1200 (100%)
+  Codes:
+    200: 1200
+

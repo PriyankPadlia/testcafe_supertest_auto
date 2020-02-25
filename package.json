@@ -32,7 +32,10 @@
     "test:coverage": "npm run test -- --coverage",
     "format": "prettier --write \"**/*.+(js|json|css)\"",
     "eject": "react-scripts eject",
-    "test:integration": "NODE_ENV=test LOG_LEVEL=none mocha --colors -t 80000 './src/__tests__/ST_Test.test.js'"
+    "test:integration": "NODE_ENV=test LOG_LEVEL=none mocha --colors -t 80000 './src/__tests__/ST_Test.test.js'",
+    "stryker": "stryker run stryker.conf.js",
+    "lighthouse": "lighthouse-ci  http://localhost:3000/ --report=lighthouse-ci",
+    "artillery": "artillery run Artillery/art-test.yml > ./Artillery/Report"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -52,6 +55,10 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@stryker-mutator/core": "^2.5.0",
+    "@stryker-mutator/html-reporter": "^2.5.0",
+    "@stryker-mutator/javascript-mutator": "^2.5.0",
+    "@stryker-mutator/jest-runner": "^2.5.0",
     "chai": "^4.2.0",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.7.0",
@@ -61,6 +68,7 @@
     "mocha": "^7.0.1",
     "node-sass": "^4.10.0",
     "nodemon": "^1.18.6",
+    "nyc": "^15.0.0",
     "prop-types": "^15.6.2",
     "react-test-renderer": "^16.6.3",
     "redux-mock-store": "^1.5.3",

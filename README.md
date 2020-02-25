@@ -47,10 +47,51 @@ npm start
 npm run test
 
 
+#### Run below for Istanbul code coverage test.
+npm run test:coverage
+
+#### How effective are the unit tests, that can be evaluated by running mutation tests with Stryker. Run below to run stryker on the unit tests
+- Install stryker: npm install -g stryker-cli
+
+npm run stryker
+
+- Stryker reports can be found at ./reports/mutation/html/index.html
+
+#### Run below command to gather web page performance stats with lighthouse-ci
+- Install lighthouse : npm install -g lighthouse-ci
+
+npm run lighthouse
+
+#### Run in-sprint load tests with Artillary
+- Install Artillery : npm install -g artillery
+
+npm run artillery
+
+#### Run below clinic for monitoring the server stats against the load tests
+- Install clinic: npm install -g clinic
+- Install benchmarking tool Autocannon : npm install -g autocannon
+
+ run clinic doctor --autocannon [ / ] -- node ./server/app.js
+
+-Reports are created under ./clinic folder
+  <table>  
+  <tr>
+    <td align="center"><img src="./.clinic/Clinic Report_2020-02-24 at 23.19.01.png"> looks like this</img></td>
+ </tr>
+ </table>
+
 
 #### E2E TESTS
 
 ###### We have used 'testcafe' to run e2e tests. Run below command to run end to end tests. It uses the .testcaferc.json file in the project root folder to fetch testcafe runtime configuration
+
+
+
+
+#### E2E TESTS
+
+###### We have used 'testcafe' to run e2e tests. Run below command to run end to end tests. It uses the .testcaferc.json file in the project root folder to fetch testcafe runtime configuration
+
 
 npm run test:TestCafe 
 
