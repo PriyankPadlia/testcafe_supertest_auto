@@ -73,10 +73,10 @@
       <div class="client-logo" style="padding:15px"></div>
       <div class="bg-primary" style="padding:15px;box-shadow: 6px 6px 6px 6px #00000033;border-radius: 10px;">
         <h3>Summary</h3><br>
-        <p class="lead">Start Time: Mon Feb 24 2020 16:52:44 GMT+0000 (Greenwich Mean Time)</p>
-        <p class="lead">Browsers: Chrome 80.0.3987.116 / macOS 10.14.6</p>
-        <p class="lead">Duration: 53s</p>
-        <p class="lead">Tests Failed: 1 out of 5</p>
+        <p class="lead">Start Time: Tue Feb 25 2020 12:50:56 GMT+0000 (Greenwich Mean Time)</p>
+        <p class="lead">Browsers: Chrome 80.0.3987.122 / macOS 10.14.6</p>
+        <p class="lead">Duration: 26s</p>
+        <p class="lead">Tests Failed: 0 out of 4</p>
         <p class="lead">Tests Skipped: 0</p>
       </div><br>
       <table class="table sortable" style="padding:15px;box-shadow: 6px 6px 6px 6px #00000033;border-radius: 10px;">
@@ -95,40 +95,32 @@
   <td>1</td>
   <td>Getting Started</td>
   <td>Number of XXL Tshirts should be 4, when clicked on XXL</td>
-  <td>Chrome 80.0.3987.116 / macOS 10.14.6</td>
-  <td>8s</td>
+  <td>Chrome 80.0.3987.122 / macOS 10.14.6</td>
+  <td>15s</td>
   <td>passed</td>
  </tr>
  <tr class="success">
   <td>2</td>
   <td>Getting Started</td>
   <td>$9 should be the lowest when Sorted Lowest to Highest</td>
-  <td>Chrome 80.0.3987.116 / macOS 10.14.6</td>
-  <td>11s</td>
+  <td>Chrome 80.0.3987.122 / macOS 10.14.6</td>
+  <td>4s</td>
   <td>passed</td>
  </tr>
  <tr class="success">
   <td>3</td>
   <td>Getting Started</td>
   <td>$134 should be the Highest when Sorted Highest to Lowest</td>
-  <td>Chrome 80.0.3987.116 / macOS 10.14.6</td>
-  <td>11s</td>
+  <td>Chrome 80.0.3987.122 / macOS 10.14.6</td>
+  <td>3s</td>
   <td>passed</td>
  </tr>
- <tr class="danger">
+ <tr class="success">
   <td>4</td>
   <td>Getting Started</td>
-  <td>validate all the items populated over the screen as per the db</td>
-  <td>Chrome 80.0.3987.116 / macOS 10.14.6</td>
-  <td>6s</td>
-  <td><a href="#test-4">failed</a></td>
- </tr>
- <tr class="success">
-  <td>5</td>
-  <td>Getting Started</td>
   <td>verify products persist in floating cart after page reloads</td>
-  <td>Chrome 80.0.3987.116 / macOS 10.14.6</td>
-  <td>17s</td>
+  <td>Chrome 80.0.3987.122 / macOS 10.14.6</td>
+  <td>3s</td>
   <td>passed</td>
  </tr>
 
@@ -146,26 +138,7 @@
       </table>
       <br>
       <h3>Error Details</h3>
-       <h4 id="test-4" style="color: red;">4. Getting Started - validate all the items populated over the screen as per the db</h4>
- <pre style="padding:15px;box-shadow: 6px 6px 6px 6px #00000033;border-radius: 10px;">AssertionError: expected 16 to deeply equal 17
-
-Browser: Chrome 80.0.3987.116 / macOS 10.14.6
-
-   57 |    
-   58 |    const num=  Object.keys(dataSet).length;
-   59 |      console.log(&#39;###Priyank### &#39;+  num );
-   60 |
-   61 |        const elems= Selector(&#39;div[class=shelf-item]&#39;);
- &gt; 62 |       await t.expect(elems.count).eql(num);
-   63 |       
-   64 |      
-   65 |&#125);
-   66 |
-   67 |test(&#39;verify products persist in floating cart after page reloads&#39;, async t =&gt; &#123
-
-   at &lt;anonymous&gt; (/Users/ppadl/Automation/FPnR/react-shopping-cart/e2e/cafe/TC_Test1.js:62:36)
-   at step (/Users/ppadl/Automation/FPnR/react-shopping-cart/node_modules/babel-runtime/helpers/asyncToGenerator.js:17:30)
-   at &lt;anonymous&gt; (/Users/ppadl/Automation/FPnR/react-shopping-cart/node_modules/babel-runtime/helpers/asyncToGenerator.js:28:13) </pre><br>
+      
     </div>
     <script>
       const modal = document.getElementById('myModal');
