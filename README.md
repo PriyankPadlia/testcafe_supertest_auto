@@ -46,6 +46,7 @@ npm start
 ###### To run unit and integration tests, run the below command. All components have at least a basic smoke test. Integration test includes fetch product and add to cart properly.
 npm run test
 
+
 #### Run below for Istanbul code coverage test.
 npm run test:coverage
 
@@ -83,6 +84,14 @@ npm run artillery
 #### E2E TESTS
 
 ###### We have used 'testcafe' to run e2e tests. Run below command to run end to end tests. It uses the .testcaferc.json file in the project root folder to fetch testcafe runtime configuration
+
+
+
+
+#### E2E TESTS
+
+###### We have used 'testcafe' to run e2e tests. Run below command to run end to end tests. It uses the .testcaferc.json file in the project root folder to fetch testcafe runtime configuration
+
 
 npm run test:TestCafe 
 
