@@ -31,7 +31,7 @@ describe('GET /products', function() {
           assert(response.body.products.length===16,'This is failed')
          
          console.log( typeof jsontest);
-          for(i in response.body.products){
+          for(var i in response.body.products){
            
           //console.log(Object.keys(response.body.products[i]).length);
           assert(Object.keys(response.body.products[i]).length==11,"All products are not returned with 11 fields");

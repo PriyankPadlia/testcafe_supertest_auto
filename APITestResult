@@ -1,0 +1,12 @@
+
+
+  GET /products
+    GET /all products
+16
+      ✓ count number of products returned (536ms)
+undefined
+      ✓ validate the products returned (471ms)
+
+
+  2 passing (1s)
+
