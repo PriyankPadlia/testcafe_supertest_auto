@@ -29,7 +29,7 @@ friendly user experience with instant visual updates and scaleable code in ecomm
     - Check node version with node -v to confirm the installed version.
     - Also, be sure to have `git` available in your PATH, `npm` might need it
 
-
+Note: If any of the npm installs fails with permission error, try running with 'sudo' permission, e.g, sudo npm install
 ## To build the application, some node modules are required. 
  #### First, Install the needed packages, run the below command, this takes all the required packages from package.json file located in project root folder*/
 
