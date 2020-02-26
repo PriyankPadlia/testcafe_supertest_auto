@@ -62,8 +62,9 @@ npm run stryker
 
 npm run lighthouse
 
-#### Run in-sprint load tests with Artillary
+#### Run in-sprint load tests with Artillery
 - Install Artillery : npm install -g artillery
+
 Note: If the installation fails with some npm ERR! code EACCES, try appending --allow-root --unsafe-perm=true e.g. sudo npm install -g artillery --allow-root --unsafe-perm=true
 
 npm run artillery
