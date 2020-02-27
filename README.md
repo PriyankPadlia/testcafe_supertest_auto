@@ -80,14 +80,17 @@ Note: If the installation fails with some npm ERR! code EACCES, try appending --
 Run command: npm run artillery
 
 This runs a art-test.yml file which defines one load phase, which will last 30 seconds with 10 new virtual users (arriving every second (on average). Then we define one possible scenario for every new virtual user to pick from, which consists of one GET request.
+
 Report can be found at: ./Artillery/Report
+
 How to read report:
-•	Scenarios launched is the number of virtual users created in the preceding 10 seconds (or in total)
+•	Scenarios launched is the number of virtual users created in the preceding 10 seconds (or in total).
 •	Scenarios completed is the number of virtual users that completed their scenarios in the preceding 10 seconds (or in the whole test). Note: this is the number of completed sessions, not the number of sessions started and completed in a 10 second interval.
-•	Requests completed is the number of HTTP requests and responses or WebSocket messages sent
-•	RPS sent is the average number of requests per second completed in the preceding 10 seconds (or throughout the test)
+•	Requests completed is the number of HTTP requests and responses or WebSocket messages sent.
+•	RPS sent is the average number of requests per second completed in the preceding 10 seconds (or throughout the test).
 •	Request latency is in milliseconds, and p95 and p99 values are the 95th and 99th percentile values (a request latency p99 value of 500ms means that 99 out of 100 requests took 500ms or less to complete).
 •	Codes provides the breakdown of HTTP response codes received.
+
 If you see NaN ("not a number") reported as a value, that means not enough responses have been received to calculate the percentile.
 
 
