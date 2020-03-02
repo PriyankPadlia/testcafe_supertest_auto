@@ -121,6 +121,9 @@ To load-test the server, we want to run it with Doctor, and point autocannon at 
 How to read the report:
 The report shows the CPU usage, memory usage, Event loop delay and active handles in graphical format. These plot various variables used in Doctor's analysis over time, from the start time of the profile (left end of the X-axis) to the finish time (right end of the X-axis).
 
+-- You can utilize any other tool to benchmark your application. As we already have a artillery script to load test our app. we can use is in place of autocannon like below.
+
+ Run command: clinic doctor --on-port 'npm run artillery' -- node server/app
 
 #### E2E TESTS
 
