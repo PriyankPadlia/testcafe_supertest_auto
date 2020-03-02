@@ -121,6 +121,7 @@ The report shows the CPU usage, memory usage, Event loop delay and active handle
 -- You can utilize any other tool to benchmark your application. As we already have a artillery script to load test our app. we can use it in place of autocannon like below.
 
  Run command: clinic doctor --on-port 'npm run artillery' -- node server/app
+ Run command(for I/O issues): clinic bubbleprof --on-port 'npm run artillery' -- node server/app 
 
 #### E2E TESTS
 
